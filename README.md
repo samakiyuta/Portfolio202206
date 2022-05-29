@@ -5,12 +5,6 @@
 自主制作ゲームの中で使用されているスクリプトの一部をポートフォリオとして公開
 
 ## Description
-### Enemy/AICharacterControl.cs
-敵がプレイヤーを追いかけている状態を制御するクラス。
-
-### Enemy/Capturer.cs
-敵がプレイヤーを検知して、追跡するかどうかを判定するクラス。
-
 ### Environment/FocusableObject/FocusableObject.cs
 プレイヤーがフォーカス可能なオブジェクトの基底クラス。
 
@@ -37,6 +31,12 @@ FocusableObjectの派生クラス。分電盤を制御するクラス。
 
 ### Environment/DeathCamera.cs
 死亡シーンのカメラを制御するクラス。
+
+### Enemy/AICharacterControl.cs
+敵がプレイヤーを追いかけている状態を制御するクラス。
+
+### Enemy/Capturer.cs
+敵がプレイヤーを検知して、追跡するかどうかを判定するクラス。
 
 ### UI/ActionButton.cs
 アクションボタンの制御クラス。
